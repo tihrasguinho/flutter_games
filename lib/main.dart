@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
       title: 'Flutter Games',
       routerConfig: Routefly.routerConfig(
         routes: routes,
-        initialPath: routePaths.features.checkers.pages.checkers,
+        initialPath: routePaths.chess,
       ),
     );
   }

@@ -15,7 +15,7 @@ class _AppPageState extends State<AppPage> {
   @override
   void initState() {
     super.initState();
-    scheduleMicrotask(() => Routefly.navigate(routePaths.features.checkers.pages.checkers));
+    scheduleMicrotask(() => Routefly.navigate(routePaths.chess));
   }
 
   @override
